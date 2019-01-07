@@ -92,7 +92,7 @@ set complete=.,w,b,u,t
 set completeopt=longest,menuone
 
 " Show “invisible” characters
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set list lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 
 if &history < 1000
   set history=50
